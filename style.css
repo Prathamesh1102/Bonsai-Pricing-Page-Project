@@ -14,9 +14,6 @@
             --normal-font-size: 1rem;
         }
 }
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -59,4 +56,21 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+@media screen and (max-width: 1118px){
+    .nav_menu{
+        position:absolute;
+        left: 0;
+        top: 2.5rem;
+        width: 100%;
+        height: calc(100vh - 3.5rem);
+        transition: top .4s, opacity .3s;
+
+    }
+    .nav-menu::-webkit-scrollbar{
+        width:0;
+    }
+    .nav-list{
+        padding-top: 1rem;
+    }
 }
