@@ -1,0 +1,62 @@
+:root{
+
+    --header-height: 3.5rem;
+    --normal-font-size: .938rem;
+
+    --font-regular:400;
+    --font-semi-bold: 600;
+
+    --z-toolkit:10;
+    --z-fixed:100;
+}
+@media screen and (min-width: 1024px){
+        :root{
+            --normal-font-size: 1rem;
+        }
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: var(--normal-font-size);
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container {
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: aqua;
+    z-index: var(--z--fixed);
+}
+
+.nav{
+    height: var(--header-height);
+}
+
+.nav-logo{
+    color: #00b289;
+    font-weight: var(--font-semi-bold);
+}
+.nav-data{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
