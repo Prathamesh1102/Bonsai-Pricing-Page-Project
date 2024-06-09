@@ -85,7 +85,8 @@ ul{
 .dropdown-link{
     padding: 1.25rem 1.25rem 1.25rem 2.5rem;
     color: black;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     column-gap: .5rem ;
+    transition: 3s;
 }
