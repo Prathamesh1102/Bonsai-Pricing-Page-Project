@@ -74,3 +74,18 @@ ul{
         padding-top: 1rem;
     }
 }
+.nav-link{
+    font-weight: var(--font-semi-bold);
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.dropdown-link{
+    padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    column-gap: .5rem ;
+}
