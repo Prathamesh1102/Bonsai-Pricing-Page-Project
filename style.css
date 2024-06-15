@@ -81,6 +81,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     color: black;
+    overflow: hidden;
 }
 .dropdown-link{
     padding: 1.25rem 1.25rem 1.25rem 2.5rem;
@@ -89,4 +90,8 @@ ul{
     align-items: center;
     column-gap: .5rem ;
     transition: 3s;
+}
+.dropdown-menu{
+    overflow: hidden;
+
 }
