@@ -5,7 +5,6 @@
 }
 body{
     font-size: var(--normal-font-size);
-
 }
 a{
     text-decoration: none;
@@ -14,7 +13,29 @@ a{
 ul{
     list-style: none;
 }
-.container {
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    height: 3.5rem;
+}
+.container{
     max-width: 1120px;
     margin-inline: 1.5rem;
+}
+.services{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (min-width: 1024px){
+    :root{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1118px) {    
 }
